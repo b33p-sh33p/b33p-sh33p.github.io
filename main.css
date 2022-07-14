@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #29333d;
+}
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 18px;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: #1f262e;
+}
+.pineapple {
+  text-align: left;
+  width: 50%;
+  font-size: 17px;
+}
+.pineapple a {
+  text-decoration: none;
+  color: #004d99;
+}
+.pineapple a:hover {
+  text-decoration: underline;
+}
