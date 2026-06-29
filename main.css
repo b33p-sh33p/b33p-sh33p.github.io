@@ -4,7 +4,13 @@ body{
 }
 .navbar {
   overflow: hidden;
-  background-color: #29333d;
+  background: linear-gradient(to bottom,
+      #d4f7f7 0%,
+      #94d1d1 55%,
+      #70c2c2 55%,
+      #45a1a1 100%
+  );
+
 }
 .navbar a {
   float: left;
@@ -15,16 +21,21 @@ body{
   font-size: 18px;
 }
 .navbar a:hover {
-  background-color: #1f262e;
+  background: linear-gradient(to bottom,
+      #d4f7f7 0%,
+      #82c9c9 55%,
+      #5ebaba 55%,
+      #3d8f8f 100%
+  );
 }
 .pineapple {
   text-align: left;
-  width: 50%;
   padding: 20px 30px;
   font-size: large;
-  background-color: rgb(198, 223, 236);
   align-items: center;
   margin: auto;
+  background-image: linear-gradient(#dbf0f0,#ffffff);
+  border-radius: 15px;
 }
 .pineapple p {
   text-align: justify;
@@ -36,7 +47,21 @@ body{
 .pineapple a:hover {
   text-decoration: underline;
 }
+.pizza {
+  width: 50%;
+  text-align: left;
+  padding: 20px 30px;
+  font-size: large;
+  align-items: center;
+  margin: auto;
+}
 h1 {
   font-size: xxx-large;
+  text-align: left;
+}
+p {
   text-align: center;
+}
+li {
+  list-style: inside
 }
