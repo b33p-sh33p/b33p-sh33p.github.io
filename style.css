@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "IBM Plex Sans Condensed";
+  src: url("fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf") format("truetype");
+}
 body{
   margin: 0;
   font-family: sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 header {
   overflow: hidden;
