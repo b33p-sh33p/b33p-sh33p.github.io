@@ -2,7 +2,7 @@ body{
   margin: 0;
   font-family: sans-serif;
 }
-.navbar {
+header {
   overflow: hidden;
   background: linear-gradient(to bottom,
       #d4f7f7 0%,
@@ -12,7 +12,7 @@ body{
   );
 
 }
-.navbar a {
+header a {
   float: left;
   color: #ffffff;
   text-align: center;
@@ -20,7 +20,7 @@ body{
   padding: 20px 18px;
   font-size: 18px;
 }
-.navbar a:hover {
+header a:hover {
   background: linear-gradient(to bottom,
       #d4f7f7 0%,
       #82c9c9 55%,
@@ -31,23 +31,21 @@ body{
 .pineapple {
   text-align: justify;
   padding: 20px 30px;
-  font-size: large;
-  align-items: center;
   margin: auto;
   background-image: linear-gradient(#dbf0f0,#ffffff);
   border-radius: 15px;
 }
-.pineapple p {
+main p {
   text-align: justify;
 }
-.pineapple a {
+main a {
   text-decoration: none;
   color: #004d99;
 }
-.pineapple a:hover {
+main a:hover {
   text-decoration: underline;
 }
-.pizza {
+main {
   width: 50%;
   text-align: left;
   padding: 20px 30px;
